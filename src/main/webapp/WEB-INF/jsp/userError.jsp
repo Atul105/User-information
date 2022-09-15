@@ -10,7 +10,7 @@
       }
     </style>
    </head>
-<body style="background-color:lightblue">
+<body style="background-color:#ff6387">
    <div class="error">
       <h2>Error: User not found</h2>
     </div>

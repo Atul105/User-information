@@ -13,7 +13,7 @@ table, th, td {
 	  	}
 </style>
 </head>
-<body style="background-color:lightblue;">
+<body style="background-color:lightgreen;">
 	<div class="center">
 		<h2>Users</h2>
 		

@@ -7,16 +7,19 @@
 	  	
 	</style>
 </head>
-<body style="background-color:lightblue;">
+<body style="background-color:#297d86;">
 	<div class="center">
-		<h1>User Manager</h1>
+		<h1><--User Management System--></h1>
 		
-		<h2 class="hello-title">Search for a User and Update Information</h2>
+		<a href="/users">Click Here</a> to view user table...!!!
 		
-		<a href="/users">View user table</a>
 		<br><br>
+		<h2 class="hello-title">Search for a User</h2>
+		
+		
+		<br>
 		<form method="post" action="update">
-			Enter an id from the user table: <input type="text" id="id" name="id" placeholder="Type here" required><input type="submit" value="Enter" />
+			Enter an id: <input type="text" id="id" name="id" placeholder="Type here" required><input type="submit" value="Enter" />
 		</form>
 	</div>
 </body>
