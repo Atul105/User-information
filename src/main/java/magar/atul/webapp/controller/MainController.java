@@ -31,21 +31,7 @@ public class MainController {
 		 return "index";
     }
     
-//    public boolean isNumber(String s)
-//	 {
-//		 if(s == null)
-//			 return false;
-//		 try
-//		 {
-//			 double db = Double.parseDouble(s);
-//		 }
-//		 catch(NumberFormatException e)
-//		 {
-//			 return false;
-//		 }
-//		 return true;
-//	 }
-//	 
+ 
 	 @PostMapping("/update")                     
 	 public String saveDetails(@RequestParam("id") String id, ModelMap modelMap) {
 	        
